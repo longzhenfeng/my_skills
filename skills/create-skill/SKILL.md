@@ -1,6 +1,6 @@
 ---
 name: create-skill
-description: Create reusable Codex skills under ~/.codex/skills or project-local skill directories. Use when the user wants to create, write, refine, migrate, or document a skill, or asks about SKILL.md structure, trigger design, or skill authoring best practices.
+description: 在 ~/.codex/skills 或项目本地 skill 目录下创建可复用的 Codex skills。用于用户想创建、编写、改进、迁移或记录 skill，或询问 SKILL.md 结构、触发设计和 skill 编写最佳实践的场景。
 ---
 
 # Create Codex Skills
@@ -49,7 +49,7 @@ Every skill needs YAML frontmatter and a markdown body.
 ```markdown
 ---
 name: your-skill-name
-description: What the skill does and when to use it.
+description: 说明这个 skill 做什么，以及应该在什么时候使用。
 ---
 
 # Skill Title
@@ -71,7 +71,7 @@ description: What the skill does and when to use it.
 Good description pattern:
 
 ```yaml
-description: Review code for bugs, regressions, and missing tests. Use when the user asks for a review, PR feedback, or change risk analysis.
+description: 检查代码中的 bug、回归风险和缺失测试。用于用户要求 review、PR 反馈或变更风险分析的场景。
 ```
 
 ## Authoring Rules

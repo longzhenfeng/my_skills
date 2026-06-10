@@ -1,6 +1,6 @@
 ---
 name: karpathy-guidelines
-description: Apply Karpathy-style coding constraints for minimal, goal-driven edits. Use when implementing or modifying code and you want focused, surgical changes.
+description: 应用 Karpathy 风格的编码约束，保持改动最小且目标明确。用于实现或修改代码时需要聚焦、外科手术式改动的场景。
 ---
 
 # Karpathy Guidelines
